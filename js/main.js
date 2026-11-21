@@ -109,7 +109,7 @@
     $("#dCount").textContent = n ? "(" + n + ")" : "";
     var body = $("#dBody");
     if (!cart.length) {
-      body.innerHTML = '<div class="empty"><img src="assets/img/icon.jpg" alt=""><p>Your cart is empty.</p><a class="btn btn-primary" href="shop.html">Browse the shop</a></div>';
+      body.innerHTML = '<div class="empty"><img src="assets/img/icon.jpg" alt=""><p>Your cart is empty.</p><a class="btn btn-primary" href="shop">Browse the shop</a></div>';
       $("#dFoot").style.display = "none"; return;
     }
     $("#dFoot").style.display = "";
