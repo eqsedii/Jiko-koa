@@ -72,6 +72,17 @@ window.JK_PRODUCTS = [
     ]
   },
   {
+    id: "induction-set",
+    cat: "cookers",
+    name: "Ecoa Induction Cooker Set",
+    tag: "Complete set",
+    img: "assets/img/induction-cooker-set.jpg",
+    desc: "A complete Ecoa induction cooking set: an induction cooktop with touch controls, two stainless steel pots with glass lids and a stainless steel frying pan.",
+    points: ["Induction cooktop with touch controls", "2 stainless steel pots with glass lids", "Stainless steel frying pan included"],
+    sizeLabel: "Option",
+    sizes: [{ label: "Full set", price: 6500 }]
+  },
+  {
     id: "ecoa-grill",
     cat: "grills",
     name: "Ecoa Grill",
