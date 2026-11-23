@@ -289,3 +289,12 @@ footer li .wai{vertical-align:-4px;fill:#25d366}
 .cdlg p{color:var(--mut);margin-bottom:18px}
 .cdlg .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .btn-danger{background:#e5483a;color:#fff}
+
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.ptable{margin:30px auto 0;max-width:860px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.ptable table{width:100%;border-collapse:collapse}
+.ptable th,.ptable td{padding:14px 18px;text-align:left;border-bottom:1px solid var(--line);font-size:.93rem;vertical-align:top}
+.ptable tr:last-child th,.ptable tr:last-child td{border-bottom:0}
+.ptable th{font-family:var(--head);text-transform:uppercase;font-size:1.2rem;color:var(--gold);width:34%}
+.ptable td{color:#e0d2c4}
+@media(max-width:600px){.ptable th,.ptable td{display:block;width:auto}.ptable th{padding-bottom:2px;border:0}.ptable td{padding-top:0}}
